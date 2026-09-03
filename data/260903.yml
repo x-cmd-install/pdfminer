@@ -1,15 +1,17 @@
 about:
-  description: Python PDF Parser (Not actively maintained). Check out pdfminer.six.
+  description:
+  |
+    Python PDF Parser (Not actively maintained). Check out pdfminer.six.
   license: MIT
   homepage: https://github.com/pdfminer/pdfminer.six
   head: 423f851
   archived: true
   latestVersion: 
-  collectedAt: 2026-09-03T05:28:40Z
+  collectedAt: 2026-09-03T22:34:27Z
 timeline:
   created: 2010-12-12
   lastCommit: 2020-01-18
-  lastRelease: ?
+  lastRelease: 
 popularity:
   star: 5274
   watcher: 1
@@ -21,7 +23,7 @@ popularity:
 language:
   Python: 501723
   Makefile: 2133
-totalLine: 503856
+totalBytes: 503856
 recent:
   last30d:
     since: 2026-08-04
