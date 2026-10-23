@@ -44,7 +44,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,266 · **Forks**: 1,105 · **Open issues**: 245 · **Contributors**: 19
+- **Stars**: 5,267 · **Forks**: 1,105 · **Open issues**: 245 · **Contributors**: 19
 
 ## Totals (cumulative)
 
@@ -54,12 +54,30 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-04-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-10-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-01 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-04-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-10-28 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-02 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+## Distribution status
+
+Reported by **139** distros on [repology.org](https://repology.org/project/pdfminer). **51** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `20260107` | ✅ latest |
+| Debian 14 | `20260107` | ✅ latest |
+| Debian 13 | `20221105` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `20260107` | ✅ latest |
+| Ubuntu 24.04 LTS | `20221105` | ⚠️ outdated |
+| Arch | `20260107` | ✅ latest |
+| Fedora rawhide | `20260107` | ✅ latest |
+| Nix unstable | `20260107` | ✅ latest |
+| Void | `20260107` | ✅ latest |
+| Alpine edge | `20260107` | ✅ latest |
+| openSUSE Tumbleweed | `20260107` | ✅ latest |
 
 ## Improve this data
 
@@ -70,4 +88,4 @@ Install metadata for pdfminer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:37:40Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:41:46Z._
