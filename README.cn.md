@@ -54,30 +54,12 @@ x install pdfminer
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-04 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-10 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/pdfminer) 上共有 **139** 个发行版报告此项目。**51** 个 ✅ 已是最新上游版本，**79** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `20260107` | ✅ latest |
-| Debian 14 | `20260107` | ✅ latest |
-| Debian 13 | `20221105` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `20260107` | ✅ latest |
-| Ubuntu 24.04 LTS | `20221105` | ⚠️ outdated |
-| Arch | `20260107` | ✅ latest |
-| Fedora rawhide | `20260107` | ✅ latest |
-| Nix unstable | `20260107` | ✅ latest |
-| Void | `20260107` | ✅ latest |
-| Alpine edge | `20260107` | ✅ latest |
-| openSUSE Tumbleweed | `20260107` | ✅ latest |
+| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-03 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-05 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-06 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-11 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## 改进这些数据
 
@@ -88,4 +70,4 @@ pdfminer 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261031.yml` · 2026-10-31T05:37:43Z._
+_数据快照: `data/card/261101.yml` · 2026-11-01T06:07:38Z._

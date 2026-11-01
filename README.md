@@ -54,30 +54,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-02 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-04 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-10 | 0 | 0 | 0 | 0 | 0 | 0 |
-
-## Distribution status
-
-Reported by **139** distros on [repology.org](https://repology.org/project/pdfminer). **51** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `20260107` | ✅ latest |
-| Debian 14 | `20260107` | ✅ latest |
-| Debian 13 | `20221105` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `20260107` | ✅ latest |
-| Ubuntu 24.04 LTS | `20221105` | ⚠️ outdated |
-| Arch | `20260107` | ✅ latest |
-| Fedora rawhide | `20260107` | ✅ latest |
-| Nix unstable | `20260107` | ✅ latest |
-| Void | `20260107` | ✅ latest |
-| Alpine edge | `20260107` | ✅ latest |
-| openSUSE Tumbleweed | `20260107` | ✅ latest |
+| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-03 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-05 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-06 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-11 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Improve this data
 
@@ -88,4 +70,4 @@ Install metadata for pdfminer lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:37:42Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:07:38Z._
