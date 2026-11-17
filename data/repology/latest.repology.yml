@@ -37,6 +37,22 @@
     - clandmeter@alpinelinux.org
   licenses:
     - MIT
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: pdfminer
+  binnames:
+    - python3-pdfminer
+    - pdfminer-data
+  visiblename: pdfminer
+  version: "20200726"
+  origversion: 20200726-1
+  status: outdated
+  maintainers:
+    - python-modules-team@lists.alioth.debian.org
+    - dkg@fifthhorseman.net
+    - eriol@debian.org
+  categories:
+    - python
 - repo: alpine_3_19
   subrepo: community
   srcname: py3-pdfminer
@@ -63,22 +79,6 @@
     - clandmeter@alpinelinux.org
   licenses:
     - MIT
-- repo: debian_12
-  subrepo: bookworm-security/main
-  srcname: pdfminer
-  binnames:
-    - python3-pdfminer
-    - pdfminer-data
-  visiblename: pdfminer
-  version: "20221105"
-  origversion: 20221105+dfsg-1.1~deb12u1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - dkg@fifthhorseman.net
-    - eriol@debian.org
-  categories:
-    - python
 - repo: alpine_3_20
   subrepo: community
   srcname: py3-pdfminer
@@ -170,6 +170,18 @@
     - clandmeter@alpinelinux.org
   licenses:
     - MIT
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: python-pdfminer.six
+  visiblename: python-pdfminer.six
+  version: "20200124"
+  origversion: 20200124-bp156.4.3.1
+  status: outdated
+  summary: PDF parser and analyzer
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: alpine_3_23
   subrepo: community
   srcname: py3-pdfminer
@@ -194,17 +206,6 @@
   summary: Python PDF Parser
   maintainers:
     - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: pdfminer
-  visiblename: pdfminer-six
-  version: "20240706"
-  origversion: null
-  status: outdated
-  summary: PDF parser and analyzer
-  maintainers:
-    - iuns@outlook.fr
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -319,22 +320,6 @@
   licenses:
     - MIT
 - repo: debian_11
-  subrepo: bullseye/main
-  srcname: pdfminer
-  binnames:
-    - python3-pdfminer
-    - pdfminer-data
-  visiblename: pdfminer
-  version: "20200726"
-  origversion: 20200726-1
-  status: outdated
-  maintainers:
-    - python-modules-team@lists.alioth.debian.org
-    - dkg@fifthhorseman.net
-    - eriol@debian.org
-  categories:
-    - python
-- repo: debian_11
   subrepo: bullseye-security/main
   srcname: pdfminer
   binnames:
@@ -352,6 +337,22 @@
     - python
 - repo: debian_12
   subrepo: bookworm/main
+  srcname: pdfminer
+  binnames:
+    - python3-pdfminer
+    - pdfminer-data
+  visiblename: pdfminer
+  version: "20221105"
+  origversion: 20221105+dfsg-1.1~deb12u1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - dkg@fifthhorseman.net
+    - eriol@debian.org
+  categories:
+    - python
+- repo: debian_12
+  subrepo: bookworm-security/main
   srcname: pdfminer
   binnames:
     - python3-pdfminer
@@ -504,6 +505,21 @@
     - MIT and Public Domain and APAFML and BSD
   categories:
     - Unspecified
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: pdfminer
+  binnames:
+    - python-pdfminer
+    - pdfminer-data
+  visiblename: pdfminer
+  version: "20110515"
+  origversion: 20110515+dfsg-1
+  status: outdated
+  maintainers:
+    - python-modules-team@lists.alioth.debian.org
+    - eriol@mornie.org
+  categories:
+    - universe/python
 - repo: epel_8
   srcname: python-pdfminer
   visiblename: python-pdfminer
@@ -577,6 +593,22 @@
   categories:
     - Unspecified
 - repo: fedora_40
+  subrepo: updates
+  srcname: python-pdfminer
+  binnames:
+    - python3-pdfminer
+    - python-pdfminer-doc
+    - python3-pdfminer+image
+  visiblename: python-pdfminer
+  version: "20240706"
+  origversion: 20240706-1.fc40
+  status: outdated
+  summary: Tool for extracting information from PDF documents
+  licenses:
+    - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
+  categories:
+    - Unspecified
+- repo: fedora_40
   subrepo: release
   srcname: python-pdfminer
   binnames:
@@ -592,8 +624,8 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: updates
+- repo: fedora_41
+  subrepo: release
   srcname: python-pdfminer
   binnames:
     - python3-pdfminer
@@ -601,7 +633,7 @@
     - python3-pdfminer+image
   visiblename: python-pdfminer
   version: "20240706"
-  origversion: 20240706-1.fc40
+  origversion: 20240706-2.fc41
   status: outdated
   summary: Tool for extracting information from PDF documents
   licenses:
@@ -624,7 +656,7 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_42
   subrepo: release
   srcname: python-pdfminer
   binnames:
@@ -633,7 +665,7 @@
     - python3-pdfminer+image
   visiblename: python-pdfminer
   version: "20240706"
-  origversion: 20240706-2.fc41
+  origversion: 20240706-3.fc42
   status: outdated
   summary: Tool for extracting information from PDF documents
   licenses:
@@ -656,17 +688,16 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_43
   subrepo: release
   srcname: python-pdfminer
   binnames:
     - python3-pdfminer
-    - python-pdfminer-doc
     - python3-pdfminer+image
   visiblename: python-pdfminer
-  version: "20240706"
-  origversion: 20240706-3.fc42
-  status: outdated
+  version: "20250506"
+  origversion: 20250506-5.fc43
+  status: legacy
   summary: Tool for extracting information from PDF documents
   licenses:
     - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
@@ -687,21 +718,6 @@
     - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: python-pdfminer
-  binnames:
-    - python3-pdfminer
-    - python3-pdfminer+image
-  visiblename: python-pdfminer
-  version: "20250506"
-  origversion: 20250506-5.fc43
-  status: legacy
-  summary: Tool for extracting information from PDF documents
-  licenses:
-    - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
-  categories:
-    - Unspecified
 - repo: fedora_44
   subrepo: release
   srcname: python-pdfminer
@@ -711,6 +727,21 @@
   visiblename: python-pdfminer
   version: "20260107"
   origversion: 20260107-2.fc44
+  status: newest
+  summary: Tool for extracting information from PDF documents
+  licenses:
+    - MIT AND LicenseRef-Fedora-Public-Domain AND APAFML AND BSD-3-Clause AND (Apache-2.0 AND MIT) AND Adobe-Glyph
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: python-pdfminer
+  binnames:
+    - python3-pdfminer
+    - python3-pdfminer+image
+  visiblename: python-pdfminer
+  version: "20260107"
+  origversion: 20260107-7.fc45
   status: newest
   summary: Tool for extracting information from PDF documents
   licenses:
@@ -877,6 +908,21 @@
     - python
 - repo: macports
   srcname: python/py-pdfminer
+  binname: py311-pdfminer
+  visiblename: py311-pdfminer
+  version: "20260107"
+  origversion: null
+  status: newest
+  summary: Python pdf extraction package
+  maintainers:
+    - eborisch@macports
+    - eborisch@github
+  licenses:
+    - MIT
+  categories:
+    - python
+- repo: macports
+  srcname: python/py-pdfminer
   binname: py312-pdfminer
   visiblename: py312-pdfminer
   version: "20260107"
@@ -920,21 +966,6 @@
     - MIT
   categories:
     - python
-- repo: macports
-  srcname: python/py-pdfminer
-  binname: py311-pdfminer
-  visiblename: py311-pdfminer
-  version: "20260107"
-  origversion: null
-  status: newest
-  summary: Python pdf extraction package
-  maintainers:
-    - eborisch@macports
-    - eborisch@github
-  licenses:
-    - MIT
-  categories:
-    - python
 - repo: mageia_9
   subrepo: core/release
   srcname: python-pdfminer
@@ -949,22 +980,6 @@
     - MIT
   categories:
     - Development/Python
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: pdfminer
-  binnames:
-    - pdfminer-data
-    - python3-pdfminer
-  visiblename: pdfminer
-  version: "20200726"
-  origversion: 20200726-1
-  status: outdated
-  maintainers:
-    - python-modules-team@lists.alioth.debian.org
-    - dkg@fifthhorseman.net
-    - eriol@debian.org
-  categories:
-    - python
 - repo: mageia_10
   subrepo: core/release
   srcname: python-pdfminer-six
@@ -1046,6 +1061,20 @@
   summary: Python PDF Parser (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: openeuler_25_03
+  srcname: python-pdfminer.six
+  binnames:
+    - python3-pdfminer.six
+    - python-pdfminer.six-help
+  visiblename: python-pdfminer.six
+  version: "20240706"
+  origversion: 20240706-2.oe2503
+  status: outdated
+  summary: PDF parser and analyzer.
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: msys2_mingw
   subrepo: x86_64
   srcname: mingw-w64-python-pdfminer
@@ -1105,6 +1134,19 @@
   licenses:
     - MIT
 - repo: nix_stable_24_11
+  srcname: python312Packages.pdfminer-six
+  visiblename: python3.12-pdfminer-six
+  version: "20240706"
+  origversion: null
+  status: outdated
+  summary: PDF parser and analyzer
+  maintainers:
+    - iuns@outlook.fr
+  licenses:
+    - MIT
+  categories:
+    - python312Packages
+- repo: nix_stable_24_11
   srcname: python311Packages.pdfminer-six
   visiblename: python3.11-pdfminer-six
   version: "20240706"
@@ -1118,8 +1160,8 @@
   categories:
     - python311Packages
 - repo: nix_stable_24_11
-  srcname: python312Packages.pdfminer-six
-  visiblename: python3.12-pdfminer-six
+  srcname: pdfminer
+  visiblename: pdfminer-six
   version: "20240706"
   origversion: null
   status: outdated
@@ -1128,8 +1170,6 @@
     - iuns@outlook.fr
   licenses:
     - MIT
-  categories:
-    - python312Packages
 - repo: nix_stable_25_05
   srcname: python313Packages.pdfminer-six
   visiblename: python3.13-pdfminer-six
@@ -1205,6 +1245,19 @@
   categories:
     - python313Packages
 - repo: nix_stable_26_05
+  srcname: python314Packages.pdfminer-six
+  visiblename: pdfminer-six
+  version: "20260107"
+  origversion: null
+  status: newest
+  summary: PDF parser and analyzer
+  maintainers:
+    - iuns@outlook.fr
+  licenses:
+    - MIT
+  categories:
+    - python314Packages
+- repo: nix_stable_26_05
   srcname: pdfminer
   visiblename: pdfminer-six
   version: "20260107"
@@ -1228,7 +1281,7 @@
     - MIT
   categories:
     - python313Packages
-- repo: nix_stable_26_05
+- repo: nix_unstable
   srcname: python314Packages.pdfminer-six
   visiblename: pdfminer-six
   version: "20260107"
@@ -1265,19 +1318,6 @@
     - MIT
   categories:
     - python313Packages
-- repo: nix_unstable
-  srcname: python314Packages.pdfminer-six
-  visiblename: pdfminer-six
-  version: "20260107"
-  origversion: null
-  status: newest
-  summary: PDF parser and analyzer
-  maintainers:
-    - iuns@outlook.fr
-  licenses:
-    - MIT
-  categories:
-    - python314Packages
 - repo: openbsd
   srcname: textproc/py-pdfminer
   binname: py3-pdfminer
@@ -1332,36 +1372,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: openeuler_25_03
-  srcname: python-pdfminer.six
-  binnames:
-    - python3-pdfminer.six
-    - python-pdfminer.six-help
-  visiblename: python-pdfminer.six
-  version: "20240706"
-  origversion: 20240706-2.oe2503
-  status: outdated
-  summary: PDF parser and analyzer.
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: openmandriva_6_0
-  subrepo: main/release
-  srcname: python-pdfminer-six
-  binnames:
-    - python-pdfminer-six
-  visiblename: python-pdfminer-six
-  version: "20250324"
-  origversion: 20250324-1
-  status: legacy
-  summary: PDF parser and analyzer
-  maintainers:
-    - mandian@tutanota.com
-  licenses:
-    - MIT
-  categories:
-    - Development/Python
 - repo: openmandriva_6_0
   subrepo: unsupported/release
   srcname: python-pdfminer
@@ -1394,20 +1404,20 @@
     - MIT and Public Domain and APAFML and BSD and (ASL 2.0 and MIT)
   categories:
     - Development/Python
-- repo: openmandriva_rolling
-  subrepo: unsupported/release
-  srcname: python-pdfminer
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: python-pdfminer-six
   binnames:
-    - python-pdfminer
-  visiblename: python-pdfminer
-  version: "20260107"
-  origversion: 20260107-1
-  status: newest
+    - python-pdfminer-six
+  visiblename: python-pdfminer-six
+  version: "20250324"
+  origversion: 20250324-1
+  status: legacy
   summary: PDF parser and analyzer
   maintainers:
-    - uro@urogaming.co.uk
+    - mandian@tutanota.com
   licenses:
-    - MIT and Public Domain and APAFML and BSD and (ASL 2.0 and MIT)
+    - MIT
   categories:
     - Development/Python
 - repo: openmandriva_rolling
@@ -1440,6 +1450,22 @@
     - mandian@tutanota.com
   licenses:
     - MIT
+  categories:
+    - Development/Python
+- repo: openmandriva_rolling
+  subrepo: unsupported/release
+  srcname: python-pdfminer
+  binnames:
+    - python-pdfminer
+  visiblename: python-pdfminer
+  version: "20260107"
+  origversion: 20260107-1
+  status: newest
+  summary: PDF parser and analyzer
+  maintainers:
+    - uro@urogaming.co.uk
+  licenses:
+    - MIT and Public Domain and APAFML and BSD and (ASL 2.0 and MIT)
   categories:
     - Development/Python
 - repo: openmandriva_cooker
@@ -1514,18 +1540,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: python-pdfminer.six
-  visiblename: python-pdfminer.six
-  version: "20200124"
-  origversion: 20200124-bp156.4.3.1
-  status: outdated
-  summary: PDF parser and analyzer
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: python-pdfminer.six
@@ -1553,22 +1567,6 @@
   licenses:
     - MIT
 - repo: pardus_21
-  subrepo: main
-  srcname: pdfminer
-  binnames:
-    - python3-pdfminer
-    - pdfminer-data
-  visiblename: pdfminer
-  version: "20200726"
-  origversion: 20200726-1
-  status: outdated
-  maintainers:
-    - python-modules-team@lists.alioth.debian.org
-    - dkg@fifthhorseman.net
-    - eriol@debian.org
-  categories:
-    - python
-- repo: pardus_21
   subrepo: updates/main
   srcname: pdfminer
   binnames:
@@ -1584,8 +1582,24 @@
     - eriol@debian.org
   categories:
     - python
+- repo: pardus_21
+  subrepo: main
+  srcname: pdfminer
+  binnames:
+    - python3-pdfminer
+    - pdfminer-data
+  visiblename: pdfminer
+  version: "20200726"
+  origversion: 20200726-1
+  status: outdated
+  maintainers:
+    - python-modules-team@lists.alioth.debian.org
+    - dkg@fifthhorseman.net
+    - eriol@debian.org
+  categories:
+    - python
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: pdfminer
   binnames:
     - python3-pdfminer
@@ -1601,7 +1615,7 @@
   categories:
     - python
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: pdfminer
   binnames:
     - python3-pdfminer
@@ -1626,6 +1640,22 @@
   visiblename: pdfminer
   version: "20181108"
   origversion: 20181108+dfsg-3
+  status: outdated
+  maintainers:
+    - python-modules-team@lists.alioth.debian.org
+    - dkg@fifthhorseman.net
+    - eriol@debian.org
+  categories:
+    - python
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: pdfminer
+  binnames:
+    - pdfminer-data
+    - python3-pdfminer
+  visiblename: pdfminer
+  version: "20200726"
+  origversion: 20200726-1
   status: outdated
   maintainers:
     - python-modules-team@lists.alioth.debian.org
@@ -1757,21 +1787,6 @@
     - fourtysixandtwo@sliderr.net
   categories:
     - python
-- repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: pdfminer
-  binnames:
-    - python-pdfminer
-    - pdfminer-data
-  visiblename: pdfminer
-  version: "20110515"
-  origversion: 20110515+dfsg-1
-  status: outdated
-  maintainers:
-    - python-modules-team@lists.alioth.debian.org
-    - eriol@mornie.org
-  categories:
-    - universe/python
 - repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: pdfminer
